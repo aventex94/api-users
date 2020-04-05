@@ -1,0 +1,36 @@
+{
+  "pgsql":{
+    "username": "postgres",
+    "password": "Aventex1994",
+    "database": "postgres",
+    "host": "localhost",
+    "port":"5432",
+    "dialect": "postgres"
+  },
+  
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "test",
+    "host": "localhost",
+    "port":"3306",
+    "dialect": "mariadb"
+  },
+  "prod": {
+    "username": "ptswiolwerwvom",
+    "password": "b3d1c89ba8d02dde44a506cc4ece82250215c497737189fdf6f64249ce50f1ba",
+    "database": "d9bm5vfbqor936",
+    "host": "ec2-34-193-232-231.compute-1.amazonaws.com",
+    "port":"5432",
+    "dialect": "postgres",
+    "ssl":true,
+    "dialectOptions":{ "ssl": {"require":true } }
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
