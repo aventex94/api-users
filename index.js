@@ -7,9 +7,3 @@ const models = require('./models');
 
 const server = http.createServer(app);
 
-models.sequelize.sync({force:true}).then(function () {
-    /**
-   * Listen on provided port, on all network interfaces.
-   */
-  
-})
